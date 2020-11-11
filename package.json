@@ -1,0 +1,23 @@
+{
+  "name": "graphql-express-crud-demo",
+  "version": "1.0.0",
+  "description": "Demo showing CRUD graphql with express js acting as a proxy before the API of bookmarks.dev",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect=localhost:9230 src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "ama",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.6",
+    "superagent": "^6.1.0"
+  }
+}
